@@ -4,205 +4,90 @@
     <title>CultureFest 2020</title>
     <link href="style.css"/>
     <style>
-       #connav ul {
-            list-style: none;
-            text-indent: 3%;
-        }
-        #connav ul li {
-            background-color: gray;
-            color: white;
-            width: 218px;
-            border: 1px solid gray;
-            text-align: center;
-            line-height: 50 px;
-            float: left;
-        }
-        #connav ul li:hover {
-            background-color: purple;
-        }
-        #connav a {
-            text-decoration: none;
-            color: white;
-        }
+    
         body {
-            background-image: url("cfestlogo19.png");
+            background-image: url("film1.jpg");
+            background-size: auto;
             font-family: 'Open Sans', sans-serif;
         }
         #main {
-background-color: white;
-margin: 3%;
+background-color: black;
 width: 1320px;
+position: relative;
+top: 40px;
+color: #f5f0c1;
 text-indent: 3%;
 text-align: left;
+margin:auto;
         }
         @media screen and (max-width: 480px) {
     img {
          width: 400px;
     }
 }
-        #connav ul {
+#connav ul {
             list-style: none;
             position: relative;
             vertical-align: middle;
-            width: 475px;
+            width: 570px;
+            color: #f5f0c1;
             float: right;
-            top: -18px;
+            opacity: 1;
+
+            float: right;
+            z-index: 1;
         }
         #connav ul li {
-            background-color:black;
-            color: white;
-            width: 19.5%;
+            color: #f0e68d;
+            width: 110px;
             position: relative;
-            border: 1px solid black;
             text-align: center;
-            line-height: 200 px;
-            vertical-align: middle;
-            height: 58px;
+            vertical-align:middle;
+            top: 20px;
+            height: 40px;
             float: left;
+            opacity: 1;
         }
         #connav ul li:hover {
-            background-color: purple;
+            background-color:#f5f0c1;
+            -webkit-text-fill-color: black;
         }
         #connav a {
             text-decoration: none;
             text-align: center;
-            color: white;
+            top: 25%;
+            color: #f5f0c1;
             position: relative;
-            top: 17px;
+        }
+        #connav ul li a:hover {
+            color: black;
         }
         body {
-            background-image: url("cfestlogo19.png");
+            background-image: url("film1.jpg");
             font-family: "Open sans", sans-serif;
             max-width: 100%;
             overflow-x: hidden;
         }
         header {
-            height: 55px;
-            width: 1000px;
-        }
-        .submenu {
-            display: none;
-        }
-        .more:hover .submenu {
-            display: block;
-            top: 55px;
             position: relative;
-        }
-          .submenu ul {
-            list-style: none;
-            position: relative;
-            vertical-align: middle;
-            text-align: right;
-        }
-        ul.submenu li {
-            display: block;
-            background-color:black;
-            color: white;
-            position: relative;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 200 px;
-            height: 55px;
-            top: 56px;
-            left: 382px;
-            float: right;
-            clear: left;
-            width: inherit;
-        }
-        ul.submenu li.more:hover {
-            background-color: purple;
-            display: block;
-        }
-        ul.submenu a {
-            text-decoration: none;
-            text-align: center;
-            color: white;
-        }
-        #connav ul {
-            list-style: none;
-            position: relative;
-            vertical-align: middle;
-            width: 475px;
-            float: right;
-            top: -18px;
-        }
-        #connav ul li {
-            background-color:black;
-            color: white;
-            width: 19.5%;
-            position: relative;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 200 px;
-            vertical-align: middle;
-            height: 58px;
-            float: left;
-        }
-        #connav ul li:hover {
-            background-color: purple;
-        }
-        #connav a {
-            text-decoration: none;
-            text-align: center;
-            color: white;
-            position: relative;
-            top: 17px;
-        }
-        body {
-            background-image: url("cfestlogo19.png");
-            font-family: "Open sans", sans-serif;
-        }
-        header {
-            position: relative;
-            background-color: black;
-            height: 60px;
             width: 100%;
             float: center;
         }
-        .submenu {
-            display: none;
+        body {
+            background-color: #571d1d;
+            background-image: url("film1.jpg");
+            font-family: "Open sans", sans-serif;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
         }
-        .more:hover .submenu {
-            display: block;
-            top: 55px;
+        header {
             position: relative;
-        }
-          .submenu ul {
-            list-style: none;
-            position: relative;
-            vertical-align: middle;
-            text-align: right;
-        }
-        ul.submenu li {
-            display: block;
-            background-color:black;
-            color: white;
-            position: relative;
-            border: 1px solid black;
-            text-align: center;
-            line-height: 200 px;
-            height: 55px;
-            top: 56px;
-            left: 382px;
+            width: 600px;
             float: right;
-            clear: left;
-            width: inherit;
-        }
-        ul.submenu li.more:hover {
-            background-color: purple;
-            display: block;
-        }
-        ul.submenu a {
-            text-decoration: none;
-            text-align: center;
-            color: white;
         }
         footer {
-            height: 83px;
             width: 100%;
             position: relative;
-            top: 25px;
-            background-color: black;
             float: right;
         }
         #social {
@@ -215,16 +100,82 @@ text-align: left;
             position: relative;
         }
         #social ul li {
-            color: white;
+            color: #f0e68d;
             float: right;
             width: 74px;
             text-indent: -50%;
         }
- img {
-     position: relative;
-     left: 30px;
-     width:fit-content;
- }
+    
+    #trad {
+        max-width: 1230px;
+        width: 1200px;
+        margin: 8px;
+    }
+#connav {
+    width: 600px;
+    position: relative;
+    top: -25px;
+    right: 33px;
+}
+       #connav ul li {
+            color: #f0e68d;
+            width: 110px;
+            position: relative;
+            text-align: center;
+            vertical-align:middle;
+            top: 20px;
+            height: 40px;
+            float: left;
+            opacity: 1;
+        }
+        #connav ul li:hover {
+            background-color:#f5f0c1;
+        }
+        #connav a {
+            text-decoration: none;
+            text-align: center;
+            top: 25%;
+            color: #f5f0c1;
+            position: relative;
+        }
+        #connav ul li a:hover {
+            color: black;
+        }
+        .submenu {
+            display: none;
+            position: relative;
+        }
+        .more:hover .submenu {
+            display: block;
+            position: relative;
+        }
+          .submenu ul {
+            list-style: none;
+            position: relative;
+            vertical-align: middle;
+            text-align: right;
+        }
+        ul.submenu li {
+            display: block;
+            color: #f5f0c1;
+            position: relative;
+            text-align: center;
+            line-height: 200 px;
+            height: 55px;
+            left: 80.7%;
+            float: right;
+            clear: left;
+            width: inherit;
+        }
+        ul.submenu li.more:hover {
+            background-color: purple;
+            display: block;
+        }
+        ul.submenu a {
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
     </style>
   </head>
 <header>
@@ -245,26 +196,29 @@ text-align: left;
       </div>
     </header>
       <body>
+          &nbsp;&nbsp;&nbsp;
        <div id = "main"> 
            &nbsp;
     <h1>Tradition and diversity </h1>
-<p>This will be where the information for the about page will be displayed</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+    <div id = "trad">
+        <img src="about.jpg" alt="about">
+    </div>
+<p>CultureFest is an amalgam of diverse cultures, incredible performances, and rich foods, all of which reflect upon the multicultural community not only at Turner</p>
+<p>Fenton but globally as well. Moreover, the dynamic, two-day, non-profit event has been hosted entirely by high school students from grades nine to twelve annually</p>
+<p>for the previous 28 years. With the number of total participants and volunteers exceeding 1000, the event is the largest student-run event in the Peel District</p>
+<p>School Board.</p>
 <p>&nbsp;</p>
 </div>
   </body>
+  &nbsp;&nbsp;
+  &nbsp;
+  &nbsp;
   <footer class="social-footer">
         <div id="social">
           <ul>
-            <li><a href = "https://www.facebook.com/"><img src="facebook.png" alt="facebook"></a></li>
-            <li><a href = "https://twitter.com/?lang=en"><img src="twitter.png" alt="twitter"></a></li>
-            <li><a href = "https://www.instagram.com/"><img src="instagram.png" alt="instagram"></a></li>
+            <li><a href = "https://www.facebook.com/"><img src="facebook2020.png" alt="facebook"></a></li>
+            <li><a href = "https://twitter.com/?lang=en"><img src="twitter2020.png" alt="twitter"></a></li>
+            <li><a href = "https://www.instagram.com/"><img src="instagram2020.png" alt="instagram"></a></li>
           </ul>
         </div>
       </footer> 
